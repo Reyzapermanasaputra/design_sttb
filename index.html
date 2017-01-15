@@ -3,6 +3,7 @@
 <head profile="http://gmpg.org/xfn/11">
 <title>STT Bandung</title>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="imagetoolbar" content="no" />
 <link href="https://fonts.googleapis.com/css?family=Roboto|Slabo+27px" rel="stylesheet">
 <link rel="stylesheet" href="styles/layout.css" type="text/css" />
@@ -29,7 +30,7 @@
   <li><a href="#modal1">Visi & Misi</a></li>
   <li><a href="#modal2">Sistem Pendidikan</a></li>
   <li><a href="#modal3">Fasilitas</a></li>
-  <li><a href="#!">Sejarah</a></li>
+  <li><a href="#modal4">Sejarah</a></li>
   <li><a href="#!">Lokasi Kampus</a></li>
   <li class="divider"></li>
 </ul>
@@ -39,14 +40,14 @@
   <li><a href="#modal1">Visi & Misi</a></li>
   <li><a href="#modal2">Sistem Pendidikan</a></li>
   <li><a href="#modal3">Fasilitas</a></li>
-  <li><a href="#!">Sejarah</a></li>
+  <li><a href="#modal4">Sejarah</a></li>
   <li><a href="#!">Lokasi Kampus</a></li>
   <li class="divider"></li>
 </ul>
 
 <!-- Dropdown Structure -->
 <ul id="dropdown2" class="dropdown-content">
-  <li><a href="#!">Teknik Industri(S1)</a></li>
+  <li><a href="#modal6">Teknik Industri(S1)</a></li>
   <li><a href="#!">Teknik Informatika(S1)</a></li>
   <li><a href="#!">Desain Komunikasi Visual(S1)</a></li>
   <li class="divider"></li>
@@ -54,7 +55,7 @@
 
 <!-- Dropdown Structure -->
 <ul id="dropdown2" class="dropdown-content">
-  <li><a href="#!">Teknik Industri(S1)</a></li>
+  <li><a href="#modal6">Teknik Industri(S1)</a></li>
   <li><a href="#!">Teknik Informatika(S1)</a></li>
   <li><a href="#!">Desain Komunikasi Visual(S1)</a></li>
   <li class="divider"></li>
@@ -67,18 +68,18 @@
       <ul class="right hide-on-med-and-down">
         <li><a href="index.html">Home</a></li>
         <li><a href="badges.html">Beasiswa</a></li>
-        <li><a href="gallery.html">Galeri Foto</a></li>
-        <li><a href="hubungi_kami.html">Hubungi Kami</a></li>
-        <li><a href="pendaftaran.html">Pendaftaran Online</a></li>
+        <li><a href="collapsible.html">Galeri Foto</a></li>
+        <li><a href="mobile.html">Hubungi Kami</a></li>
+        <li><a href="mobile.html">Pendaftaran Online</a></li>
         <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Profile STT Bandung<i class="material-icons right">arrow_drop_down</i></a></li>
         <li><a class="dropdown-button" href="#!" data-activates="dropdown2">Program Studi<i class="material-icons right">arrow_drop_down</i></a></li>
       </ul>
       <ul class="side-nav" id="mobile-demo">
         <li><a href="sass.html">Home</a></li>
         <li><a href="badges.html">Beasiswa</a></li>
-        <li><a href="gallery.html">Galeri Foto</a></li>
-        <li><a href="hubungi_kami.html">Hubungi Kami</a></li>
-        <li><a href="pendaftaran.html">Pendaftaran Online</a></li>
+        <li><a href="collapsible.html">Galeri Foto</a></li>
+        <li><a href="mobile.html">Hubungi Kami</a></li>
+        <li><a href="mobile.html">Pendaftaran Online</a></li>
         <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Profile<i class="material-icons right">arrow_drop_down</i></a></li>
         <li><a class="dropdown-button" href="#!" data-activates="dropdown2">Program Studi<i class="material-icons right">arrow_drop_down</i></a></li>
       </ul>
@@ -95,15 +96,15 @@
 
 <!-- Video -->
   <!-- ####################################################################################################### -->
-  <div class="videocontainer">
+<div class="videocontainer">
 <video autoplay loop muted poster="screenshot.jpg" id="background">
     <source src="Festo_-_BionicOpter.webm">
 </video>
-<h1 style="color: white; font-size: 5em; text-align: center; top:36%; left: 35%; position: fixed; z-index: -99; font-family: 'Pacifico', cursive;">STT Bandung</H1>
+<h1 style="color: white; font-size: 5em; text-align: center; top:36%; left: 35%; position: fixed; z-index: -99; font-family: 'Pacifico', cursive;">STT Bandung</h1>
 </div>
   <!-- ####################################################################################################### -->
-</div>
-<!-- ####################################################################################################### -->
+
+
 <div class="wrapper row4">
 
  <!-- Modal visi misi -->
@@ -127,7 +128,13 @@
 4. Berpartisipasi aktif dalam kajian teknologi tepat guna bagi industri sedang dan menengah.</p></div>
     </li>
   </ul>
+
     </div>
+      <br/><br/><p></p>
+           <div class="modal-content" style="text-align: left;">
+         <p></p>
+      <p>STT Bandung</p>
+  <p>Jl. Soekarno Hatta No. 378 Bandung 40235 Jawa Barat</p></div>
     <div class="modal-footer">
       <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Tutup</a>
     </div>
@@ -197,7 +204,7 @@
           </tr>
         </thead>
 
-        <tbody>
+        <tbody >
           <tr>
             <td>Lulusan SMA/SMU, SMK, sederajat melanjutkan ke S1</td>
             <td>Beban Studi = 144 – 152 SKS</td>
@@ -215,8 +222,12 @@
           </tr>
         </tbody>
       </table>
-
     </div>
+
+         <div class="modal-content" style="text-align: left;">
+         <p></p>
+      <p>STT Bandung</p>
+  <p>Jl. Soekarno Hatta No. 378 Bandung 40235 Jawa Barat</p></div>
 
     <div class="modal-footer">
       <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Tutup</a>
@@ -257,11 +268,186 @@
     <li>
   </ul>
     </div>
+       <div class="modal-content" style="text-align: left;">
+         <p></p>
+      <p>STT Bandung</p>
+  <p>Jl. Soekarno Hatta No. 378 Bandung 40235 Jawa Barat</p></div>
     <div class="modal-footer">
       <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Tutup</a>
     </div>
   </div>
 
+
+
+
+ <!-- Modal sejarah -->
+ <div id="modal4" class="modal">
+    <div class="modal-content" style="text-align: justify;">
+      <h4 style="text-align: center;">Sejarah Berdirinya STTB</h4>
+     <img class="materialboxed" width="100" height="100" src="images/sejarah.jpg">
+      
+    <p>Sekolah Tinggi Teknologi Bandung atau disingkat STTB/STT BAndung resmi berdiri pada tanggal 05 Oktober 1991 dengan Nomor SK Dirjen DIKTI No: 197/DIKTI/Kep/1992. Saat itu jurusan yang dibuka adalah Teknik Industri jenjang S1 yang beraktifitas di kampus STTB di Jalan Kartini No. 10 Bandung Jawa Barat. Meskipun usia STTB baru dua puluh empat tahun, akan tetapi Jurusan Teknik Industri STT Bandung ini memiliki sejarah yang cukup panjang di bidang pendidikan dan ilmu teknik industri di Indonesia khususnya di Jawa Barat.</p>
+    <p>
+    Evaluasi terus dilakukan tim manajemen STTB dengan memperhatikan kilas balik profil jurusan teknik industri setelah lebih dari 24 tahun berdiri dengan memperhatikan dan bercermin terhadap aspek internal dan eksternal sebagai acuan bagi keberlanjutan (sustainability) pengelolaan jurusan teknik industri di masa yang akan datang.
+    STT Bandung didirikan dengan tujuan untuk menghasilkan sarjana dan tenaga ahli yang kompeten di bidangnya dan mampu menghadapi tantangan global, mampu memanfaatkan berbagai peluang yang ada di sekelilingnya, dan memiliki jiwa kewirausahaan yang tinggi dengan harapan dapat menjadi seorang pengusaha sukses serta dapat menciptakan kesempatan kerja bagi lingkungannya.</p>
+<p>
+    STT Bandung sebagai institusi pendidikan yang telah berdiri lebih dari 24 Tahun telah mendapat beberapa kali perpanjangan ijin operasional dari DIKTI (terakhir dengan Nomor : 1396/D/T/K-IV/2009 tanggal 11 Maret 2009) dan dua kali mendapat akreditasi untuk jurusan Teknik Industri dari Badan Akreditasi Nasional Perguruan Tinggi (terakhir pada tanggal 9 November 2013 dengan No: 227/SK/BAN-PT/Ak-XVI/S/XI/2013).</p>
+
+<p>
+    Sekolah Tinggi Teknologi Bandung telah berhasil menerapkan pola dan metode yang tepat kepada lebih dari 400 lulusan sehingga dapat diserap oleh berbagai perusahaan, industri maupun wirausaha. Saat ini lulusan STT Bandung banyak yang sudah menempati posisi penting di berbagai instansi dan perusahaan seperti di:
+    <li>PT. DI</li>
+    <li>PT. LEN</li>
+    <li>PT. TELKOM</li>
+    <li>PT. PINDAD</li>
+    <li>PT. PANASIA</li>
+    <li>LIPI</li>
+    <li>Instansi/perusahaan/BUMN lainnya.</li>
+      </p>
+      <p>
+      Sejak berdiri, Sekolah Tinggi Teknologi Bandung mengalami beberapa kali pergantian kepengurusan dengan tujuan untuk meningkatkan kualitas layanan dan kualitas lulusan.</p>
+
+  <pre>
+      <b>1. Periode 1991-1995</b>
+      Ketua : Drs. Machmud Djamil
+
+       
+
+      <b>2. Periode 1995-1999</b>
+      Ketua : Ir. Ika Sartika, MT.
+      Puket 1 : Ir. Tati Sulastri, MT.
+      Puket 2 : Ir. Tati Sulastri, MT.
+      Puket 3 : Ir. Moro Sujatmiko
+      Puket 4 : Ir. R. Benny Prasetyo
+      Ketua Jurusan Teknik Industri : Ir. R. Susanto
+
+       
+
+      <b>3. Periode 2000-2004</b>
+      Ketua : Ir. Adji Wigjoteruna
+      Puket 1 : Ir. Lucie Maria
+      Puket 2 : Ir. Moro Sujatmiko
+      Puket 3 : Ir. Moro Sujatmiko
+      Ketua Jurusan Teknik Industri : Ir. Bedy Ubaedillah, MM.
+      Sekretaris Jurusan TI : Widi Nugraha, ST., MT.
+
+       
+
+      <b>4. Periode 2004-2006</b>
+      Ketua : Ir. Adji Wigjoteruna
+      Puket 1 : Ir. Lucie Maria
+      Puket 2 : Ir. Moro Sujatmiko
+      Puket 3 : Ir. Moro Sujatmiko
+      Ketua Jurusan Teknik Industri : Ir. Bedy Ubaedillah, MM.
+      Sekretaris Jurusan TI : Dodi Permadi, ST.
+
+       
+
+      <b>5. Periode 2006-2007</b>
+      Ketua : H. Sudianto, ST.
+      Puket 1 : Ragil Pardiyono, ST.
+      Puket 2 : Rina Indrayani, SE.
+      Puket 3 : Dodi Permadi, ST., MT.
+      Ketua Jurusan Teknik Industri : Dodi Permadi, ST., MT.
+
+       
+
+      <b>6. Periode 2007-2008</b>
+      Ketua : Dodi Permadi, ST., MT.
+      Puket 1 : Agus Rahmat H., SH.
+      Puket 2 : Rina Indrayani, SE.
+      Puket 3 : Ragil Pardiyono, ST.
+      Ketua Jurusan Teknik Industri : Dodi Permadi, ST., MT.
+      Ketua Jurusan Teknik PL : Siti Madinah, ST., MT.
+
+       
+
+      <b>7. Periode 2009-2015</b>
+      Ketua : Ragil Pardiyono, ST., MT.
+      Puket 1 : Agus Rahmat H., SH.
+      Puket 2 : Aceng Kurniawan, SE.
+      Puket 3 : Rina Indrayani, SE., MM.
+      Ketua Jurusan Teknik Industri : Ir. Moro Sujatmiko
+      Ketua Jurusan Teknik Informatika : Siti Madinah, ST., MT.
+
+       
+
+      <b>8. Periode 2015-sekarang</b>
+      Ketua : Muchammad Naseer, ST., M.Kom
+      Puket 1 : Agus Rahmat H., SH., MM
+      Puket 2 : Aceng Kurniawan, SE
+      Puket 3 : Indra Julias, S.Kom
+      Ketua Jurusan Teknik Industri : Herman R. Suwarman, ST., MT
+      Ketua Jurusan Teknik Informatika : M. Sabar, ST
+
+      </pre>
+   
+      </div>
+      <div class="modal-content" style="text-align: left;">
+         <p></p>
+      <p>STT Bandung</p>
+  <p>Jl. Soekarno Hatta No. 378 Bandung 40235 Jawa Barat</p></div>
+ 
+    <div class="modal-footer">
+      <a href="#!" style="color: black;" class=" modal-action modal-close waves-effect waves-green btn-flat">Tutup</a>
+    </div>
+  </div>
+
+
+<!-- modal sarjan 1-->
+ <div id="modal6" class="modal">
+  <div class="modal-content" style="text-align: justify;">
+  <div class="row">
+    <div class="col s12">
+      <ul class="tabs .tabs-fixed-width">
+        <li class="tab col s2"><a class="active" href="#test1">Visi & Misi</a></li>
+        <li class="tab col s2"><a href="#test2">Tujuan</a></li>
+        <li class="tab col s2"><a href="#test3">Kurikulum</a></li>
+        <li class="tab col s2"><a href="#test4">Gallery Foto</a></li>
+        <li class="tab col s2"><a href="#test5">Berita</a></li>
+        <li class="tab col s2"><a href="#test6">Alumni</a></li>
+      </ul>
+    </div>
+    <div id="test1" class="col s12" style="text-align: justify;">
+    <h5><p>Visi</p></h5>
+    <p>Visi Prodi Teknik Industri merupakan pernyataan yang berorientasi ke masa depan tentang apa yang diharapkan oleh program studi teknik industri yang dapat dipaparkan dengan sangat jelas dan sangat realistik sebagai berikut
+    Menjadi program studi Teknik Industri yang berdaya saing dan unggul secara nasional pada tahun 2020.</p>
+
+    <h5><p>Misi</p></h5>
+    <p>Misi Program studi teknik industri merupakan deskripsi mengenai tugas, kewajiban,tanggung jawab dan rencana tindakan yang dirumuskan sesuai dengan visi program studi teknik industri untuk digunakan dalam pengembangan Tridarma, dan kami paparkan dengan sangan jelas dan realistik sebagai berikut:</p>
+    <ul><li>a. Menyelenggarakan program pendidikan, penelitian, dan pengabdian kepada masyarakat secara efisien, terpadu, tepat waktu dan berkesinambungan.</li>
+    <li>b. Menyelenggarakan pendidikan dengan keunggulan mutu yang diselaraskan dengan perkembangan ilmu pengetahuan dan teknologi. Adaptif terhadap tantangan sosial, budaya dan lingkungan.</li>
+    <li>c. Mengupayakan terobosan dan inovatif dalam mencari teknologi tepat guna yang memberi manfaat bagi pembangunan berwawasan lingkungan.</li></ul>
+    </div>
+
+    <div id="test2" class="col s12" style="text-align: justify;">
+    <h5><p>Tujuan</p></h5>
+    <p>Tujuan Prodi Teknik Industri merupakan rumusan tentang hasil khusus Prodi Teknik Industridalam bentuk profil kompetensi yang diharapkan dari lulusan sesuai dengan kebutuhan dan standar yang dituntut oleh stakeholders internal dan eksternal, termasuk Prodi Teknik Industri sebagai berikut:</p>
+    <ul><li> a. Menghasilkan sarjana teknik industri yang memiliki kempetensi keilmuan bidang keteknikindustrian, memiliki motivasi ekonomi kewirausahaan, sehingga mampu menjadi warga negara Indonesia yang beradab</li>
+    <li>b. Menghasilkan lulusan yang dapat diterima oleh dunia industri sesuai dengan keahlian dan kemampuan dalam bidang teknik industri.</li>
+    <li>c. Menghasilkan peneliti yang handal dibidang teknik industri.</li>
+    <li>d. Menghasilkan sarjana teknik industri yang mampu mengaplikasikan bidang keahliannya dalam masyarakat.</li>
+    <p>Dari paparan diatas, jelas tergambar bahwa Prodi Teknik Industri telah memiliki visi, misi tujuan dan sasaran yang sangat jelas dan sangat realistik, karena diperkuat lagi dengan strategi pencapaian sasaran program studi yang sesuai dengan perencanaan, sesuai dengan pelaksanaan, dan selalu ada pengontrolan, dengan bahasa sederhana adalah prinsip P3 )Perencanaa, Pelaksanaan, Pengontrolan) yang menjadi semboyan program studi teknik industri.</p>
+        </div>
+
+    <div id="test3" class="col s12" style="text-align: justify;">Test 3
+
+    </div>
+
+    <div id="test4" class="col s12" style="text-align: justify;">Test 4
+
+    </div>
+  </div>
+      <div class="modal-content" style="text-align: left;">
+      <p></p><br><br><br>
+      <p></p>
+      <p>STT Bandung</p>
+      <p>Jl. Soekarno Hatta No. 378 Bandung 40235 Jawa Barat</p></div>
+ 
+      <div class="modal-footer">
+      <a href="#!" style="color: black;" class=" modal-action modal-close waves-effect waves-green btn-flat">Tutup</a>
+      </div>
+  </div>
+</div>
 
   <div id="container" class="clear">
     <!-- ####################################################################################################### -->
